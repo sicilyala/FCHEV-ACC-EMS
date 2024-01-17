@@ -1,7 +1,7 @@
 # ignore files listed below
 
 *.pyc
-/.vscode/
+/.idea/
 /common/data/
 
  
