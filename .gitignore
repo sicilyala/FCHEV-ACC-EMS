@@ -1,0 +1,8 @@
+# ignore files listed below
+
+*.pyc
+/.vscode/
+/common/data/
+
+ 
+
