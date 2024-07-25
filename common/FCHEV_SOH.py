@@ -25,7 +25,7 @@ class FCHEV_SOH:
     
     # fuel cell model
     def _func_init(self):
-        data_dir = "E:/SEU2/Program2/ACC_EMS_FCHEV/common/data/"  # car data from BIT
+        data_dir = "E:/SEU2/Program2/ACC_EMS_FCHEV/common/data/"  
         # fuel cell engine
         data = scio.loadmat(data_dir+'P_fc.mat')
         P_fc = data['P_fc'][0]   # attention: kW
